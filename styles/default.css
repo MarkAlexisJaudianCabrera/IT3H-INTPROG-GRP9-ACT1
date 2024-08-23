@@ -1,0 +1,171 @@
+/*START BODY*/
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background: #F7E4C9;
+}
+body{
+    background: #F7E4C9;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    width: 1px;
+}
+/*END BODY*/
+
+
+/*START RANDOM*/
+.btn-style-default{
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    text-align: justify;
+    background: #1E519E;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+/*END RANDOM*/
+
+/*START Scroll to Top*/
+#stp-btn{
+    float: right;
+    position: fixed;
+    right: .5rem;
+    bottom: .5rem;
+    
+    border: 1px solid #000;
+    box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
+}
+#stp-btn:hover{
+    background-color: #3380f3;
+    cursor: pointer;
+}
+/*END Scroll to Top*/
+
+/*START TITLE*/
+.title{
+    margin-top: 1%;
+    padding: 10% 10%;
+    height: 100%;
+    max-width: 100%;
+
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.title-subject-name{
+    font-size: 2vw;
+}
+.title-group-name{
+    font-size: 2vw;
+}
+/*END TITLE*/
+
+/*START NAVMENU*/
+.navmenu{
+    max-width: 90%;
+}
+.navmenu-list {
+    margin-top: 1%;
+    text-align: justify;
+    align-content: space-evenly;
+    gap: 8vw;
+    background-color: #F7E4C9;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navmenu-list div {
+    padding: 1.5rem;
+    background-color: #1E519E;
+    text-align: center;
+    margin: 1rem;
+    width: 10rem;
+
+    border-radius: 1rem;
+    border: 1px solid;
+    box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
+}
+.navmenu-list div:hover {
+    background-color: #3380f3;
+    cursor: pointer;
+}
+.navmenu-list div a{
+    text-decoration: none;
+    color: #fff;
+}
+/*END NAVMENU*/
+
+/*START MEMBERS*/
+.members{
+    margin-top: 1%;
+    padding: 5% 10%;
+    height: 100%;
+    max-width: 100%;
+
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.members-list {
+    gap: 8vw;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+.members-list .mem{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    background: #1E519E;
+}
+/*END MEMBERS*/
+
+/*START PROFILES*/
+.profiles{
+    margin-top: 1%;
+    padding: 5% 10%;
+    height: 100%;
+    max-width: 100%;
+
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*END PROFILES*/
+
+/*START ACCOUNTS*/
+.accountslinks{
+    margin-top: 1%;
+    padding: 5% 10%;
+    height: 100%;
+    max-width: 100%;
+
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*END ACCOUNTS*/
+
+/*START ABOUTS*/
+.about{
+    margin-top: 1%;
+    padding: 5% 10%;
+    height: 100%;
+    max-width: 100%;
+
+    text-align: center;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*END ABOUTS*/
