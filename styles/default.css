@@ -6,6 +6,8 @@ body{
     background: #F7E4C9;
 }
 body{
+    max-height: 100% !important;
+    max-width: 100% !important;
     background: #F7E4C9;
     font-family: 'Poppins', sans-serif;
     overflow-y: scroll;
@@ -50,7 +52,7 @@ body::-webkit-scrollbar {
 /*START TITLE*/
 .title{
     margin-top: 1%;
-    padding: 10% 10%;
+    padding: 8% 10%;
     height: 100%;
     max-width: 100%;
 
@@ -60,10 +62,10 @@ body::-webkit-scrollbar {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .title-subject-name{
-    font-size: 2vw;
+    font-size: 2.3vw;
 }
 .title-group-name{
-    font-size: 2vw;
+    font-size: 2.3vw;
 }
 /*END TITLE*/
 
@@ -75,28 +77,29 @@ body::-webkit-scrollbar {
     margin-top: 1%;
     text-align: justify;
     align-content: space-evenly;
-    gap: 8vw;
+    gap: 5vw;
     background-color: #F7E4C9;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.navmenu-list div {
+.navmenu-list .btn-list-style {
     padding: 1.5rem;
     background-color: #1E519E;
     text-align: center;
     margin: 1rem;
     width: 10rem;
+    color: #fff;
 
     border-radius: 1rem;
-    border: 1px solid;
+    border: 1px solid #000;
     box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
 }
-.navmenu-list div:hover {
+.navmenu-list .btn-list-style:hover {
     background-color: #3380f3;
     cursor: pointer;
 }
-.navmenu-list div a{
+.navmenu-list .btn-list-style a{
     text-decoration: none;
     color: #fff;
 }
@@ -115,12 +118,17 @@ body::-webkit-scrollbar {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .members-list {
+    margin-top: 1%;
+    text-align: center;
+    align-content: space-evenly;
     gap: 8vw;
+    background-color: #F7E4C9;
     display: flex;
-    max-width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .members-list .mem{
+    max-height: 100% !important;
     width: 20rem;
     height: 20rem;
     border-radius: 100%;
