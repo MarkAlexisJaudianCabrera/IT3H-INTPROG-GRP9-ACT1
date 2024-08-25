@@ -1,14 +1,16 @@
 /*START BODY*/
 html {
     scroll-behavior: smooth;
-  }
+}
 body{
+    /*background-image: url('https://mdbootstrap.com/img/new/standard/city/041.jpg');
+    height: 100vh;*/
     background: #F7E4C9;
+    margin: auto !important;
 }
 body{
     max-height: 100% !important;
     max-width: 100% !important;
-    background: #F7E4C9;
     font-family: 'Poppins', sans-serif;
     overflow-y: scroll;
 }
@@ -23,13 +25,19 @@ body::-webkit-scrollbar {
     font-size: 1rem;
     border-radius: 1.5rem;
     text-align: justify;
-    background: #1E519E;
+    background: #987555;
     border: none;
     color: white;
     padding: 1rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+.spce{
+    margin: 1%;
+}
+#hr-styles{
+    color: #F7E4C9;
 }
 /*END RANDOM*/
 
@@ -44,7 +52,7 @@ body::-webkit-scrollbar {
     box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
 }
 #stp-btn:hover{
-    background-color: #3380f3;
+    background-color: #D1B48C;
     cursor: pointer;
 }
 /*END Scroll to Top*/
@@ -85,7 +93,7 @@ body::-webkit-scrollbar {
 }
 .navmenu-list .btn-list-style {
     padding: 1.5rem;
-    background-color: #1E519E;
+    background-color: #987555;
     text-align: center;
     margin: 1rem;
     width: 10rem;
@@ -96,7 +104,7 @@ body::-webkit-scrollbar {
     box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
 }
 .navmenu-list .btn-list-style:hover {
-    background-color: #3380f3;
+    background-color: #D1B48C;
     cursor: pointer;
 }
 .navmenu-list .btn-list-style a{
@@ -129,10 +137,11 @@ body::-webkit-scrollbar {
 }
 .members-list .mem{
     max-height: 100% !important;
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
+    border: .2rem solid #664228;    
     border-radius: 100%;
-    background: #1E519E;
+    background: #BA9976;
 }
 /*END MEMBERS*/
 
@@ -147,6 +156,26 @@ body::-webkit-scrollbar {
     border: 1px solid;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.profiles-img{
+    border-radius: 1.5rem;
+    border: #664228 .4rem solid;
+    box-shadow: 0 4px 8px rgb(92, 92, 92);
+    max-height: 100% !important;
+    display: inline-flex;
+    float: left;
+    width: 15rem;
+    height: 15rem;
+}
+.profiles-fn{
+}
+.profiles-link{
+}
+.profiles-desc{
+    text-align: justify;
+    max-height: 100% !important;
+    width: 15rem;
+    height: 15rem;
 }
 /*END PROFILES*/
 
@@ -177,3 +206,17 @@ body::-webkit-scrollbar {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 /*END ABOUTS*/
+
+/*START FOOTERR*/
+.footerr{
+    margin: 1% auto auto auto;
+    max-width: 100% !important;
+    height: 4rem;
+    bottom: 0;
+    background: #664228;
+    text-align: center;
+    border-top: 1px solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #F7E4C9;
+}
+/*END FOOTERR*/
