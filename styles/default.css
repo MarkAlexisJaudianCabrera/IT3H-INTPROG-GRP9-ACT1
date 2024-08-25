@@ -3,8 +3,6 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    /*background-image: url('https://mdbootstrap.com/img/new/standard/city/041.jpg');
-    height: 100vh;*/
     background: #F7E4C9;
     margin: auto !important;
 }
@@ -21,6 +19,12 @@ body::-webkit-scrollbar {
 
 
 /*START RANDOM*/
+*{
+    box-sizing: border-box;
+}
+.spce{
+    font-size: 1.5vw;
+}
 .btn-style-default{
     font-size: 1rem;
     border-radius: 1.5rem;
@@ -32,12 +36,16 @@ body::-webkit-scrollbar {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
 }
 .spce{
     margin: 1%;
 }
 #hr-styles{
     color: #F7E4C9;
+}
+.centertext{
+    text-align: center;
 }
 /*END RANDOM*/
 
@@ -51,7 +59,7 @@ body::-webkit-scrollbar {
     border: 1px solid #000;
     box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
 }
-#stp-btn:hover{
+#stp-btn:hover, .btn-style-default:hover{
     background-color: #D1B48C;
     cursor: pointer;
 }
@@ -103,7 +111,8 @@ body::-webkit-scrollbar {
     border: 1px solid #000;
     box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
 }
-.navmenu-list .btn-list-style:hover {
+.navmenu-list .btn-list-style:hover, .lta-btn:hover {
+    box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
     background-color: #D1B48C;
     cursor: pointer;
 }
@@ -116,7 +125,7 @@ body::-webkit-scrollbar {
 /*START MEMBERS*/
 .members{
     margin-top: 1%;
-    padding: 5% 10%;
+    padding: .5% 10% 2% 10%;
     height: 100%;
     max-width: 100%;
 
@@ -127,7 +136,6 @@ body::-webkit-scrollbar {
 }
 .members-list {
     margin-top: 1%;
-    text-align: center;
     align-content: space-evenly;
     gap: 8vw;
     background-color: #F7E4C9;
@@ -136,53 +144,61 @@ body::-webkit-scrollbar {
     flex-wrap: wrap;
 }
 .members-list .mem{
-    max-height: 100% !important;
-    width: 15rem;
-    height: 15rem;
+    max-width: 100% !important;
+    width: 15vw;
     border: .2rem solid #664228;    
     border-radius: 100%;
-    background: #BA9976;
+    background-color: #fff;
 }
 /*END MEMBERS*/
 
 /*START PROFILES*/
 .profiles{
     margin-top: 1%;
-    padding: 5% 10%;
+    padding: .5% 10% 2% 10%;
     height: 100%;
     max-width: 100%;
 
-    text-align: center;
+    align-items: center;
     border: 1px solid;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .profiles-img{
-    border-radius: 1.5rem;
+    background-color: #fff;
+    margin-right: 5% !important;
+    border-radius: 1.5vw;
     border: #664228 .4rem solid;
     box-shadow: 0 4px 8px rgb(92, 92, 92);
+    width: 16vw;
     max-height: 100% !important;
-    display: inline-flex;
+    margin: 1rem;
+    display: table;
     float: left;
-    width: 15rem;
-    height: 15rem;
 }
 .profiles-fn{
+    font-size: 2vw;
+    display: inline-block;
+    margin-right: 2%;
 }
-.profiles-link{
+.profiles-link, .accountslink-btn-styles{
+    font-size: 1vw;
+    width: 16vw;
+    padding: 1vw;
+    max-height: 100% !important;
+    display: inline-block;
 }
 .profiles-desc{
+    font-size: 1.5vw;
+    margin: 1rem !important;
     text-align: justify;
-    max-height: 100% !important;
-    width: 15rem;
-    height: 15rem;
 }
 /*END PROFILES*/
 
 /*START ACCOUNTS*/
 .accountslinks{
     margin-top: 1%;
-    padding: 5% 10%;
+    padding: .5% 10% 2% 10%;
     height: 100%;
     max-width: 100%;
 
@@ -191,19 +207,64 @@ body::-webkit-scrollbar {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.row{
+    margin-top: 1%;
+    align-content: space-evenly;
+    gap: 5vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.column {
+    text-align: center;
+    padding-right:5%;
+    width: 29%;
+}
+.column p{
+    text-align: center;
+    font-size: 1.2vw;
+}
+.column a{
+    text-decoration: none;
+}
+.rightborder{
+    border-right: #000 2px solid;
+}
 /*END ACCOUNTS*/
 
 /*START ABOUTS*/
 .about{
     margin-top: 1%;
-    padding: 5% 10%;
+    padding: .5% 10% 2% 10%;
     height: 100%;
     max-width: 100%;
 
     text-align: center;
     border: 1px solid;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(100, 100, 100);
+}
+.about p{
+    text-align: justify;
+}
+.about .plmun-logo-1{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    margin-top: 6%;
+    width: 20%;
+    display: block; 
+
+    background: #664228;
+    padding: .5rem;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(100, 100, 100);
+}
+.about .citcs-logo-1{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    float: right;
+    width: 10%;
 }
 /*END ABOUTS*/
 
